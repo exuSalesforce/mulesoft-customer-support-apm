@@ -1,0 +1,15 @@
+# apm.yml — Microsoft Agent Package Manager manifest
+# Spec: https://microsoft.github.io/apm/
+
+name: bucket-customer-support
+version: 1.0.0
+dependencies:
+  apm:
+    - <owner>/<repo>/skills/customer-360-analysis
+    - <owner>/<repo>/skills/security-compliance-checker
+    - <owner>/<repo>/skills/brand-voice-guardian
+    - <owner>/<repo>/skills/customer-support-tone-guide
+  mcp:
+    - io.salesforce/mcp-006
+    - io.zendesk/mcp-014
+    - io.sap/mcp-001
